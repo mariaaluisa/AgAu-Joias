@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<title>AgAu Joias</title>
+
+</head>
+<body>
+
+	<center>
+		<div class="menu">
+			<ul>
+				<li> <a href="index.html">Home</a> </li>
+				<li> <a href="produtos.html">Produtos</a> </li>
+				<li> <a href="sobrenos.html">Sobre Nós</a> </li>
+				<li> <a href="contatos.html">Contatos</a> </li>
+				<li> <a href="ofertas.html">Ofertas</a>  </li>
+				<li> <a href="lojas.html">Nossas Lojas</a>  </li>
+				<li> <a href="logoifc.html">Logo IFC</a>  </li>
+				<li> <a href="cadastroatendimento.html">Efetuar Compra</a>  </li>
+			</ul> 
+        </div>
+	</center>
+	
+	<form action="https://teste-reusetech.000webhostapp.com/prova5.php" method="get">
+		
+		<fieldset>
+			<legend class="formulariolegenda" >Dados Pessoais</legend>
+			<label class="formulario">Nome Completo:</label>
+			<input type="text" name="nomecompleto" placeholder="Informe seu Nome">
+			<br>
+			<label class="formulario">Cpf:</label>
+			<input type="number" name="cpf" placeholder="Informe seu Cpf">
+			<br>
+			<label class="formulario">E-Mail:</label>
+			<input type="text" name="email" placeholder="Informe seu E-Mail">
+			<br>
+			<label class="formulario">Idade:</label>
+			<input type="number" name="idade" placeholder ="Informe sua Idade">
+			<br>
+			<label class="formulario">Sexo:</label>
+			<input type="radio" name="sexo" value="mas">
+			<label class="formulario">Masculino</label>
+			<input type="radio" name="sexo" value="fem">
+			<label class="formulario">Feminino</label>
+
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend class="formulariolegenda">Endereço</legend>
+			<label class="formulario">Cidade:</label>
+			<input type="text" name="cidade" placeholder="Ex.: Itajai">
+			<br>
+			<label class="formulario">Rua:</label>
+			<input type="text" name="rua" placeholder="Ex.: Rua Brusque">
+			<br>
+			<label class="formulario">Cep:</label>
+			<input type="number" name="cep" placeholder="Ex.: 88360000">
+			<br>
+			<label class="formulario">Bairro:</label>
+			<input type="text" name="bairro" placeholder="Ex.: Centro">
+			<br>
+			<label class="formulario">Numero Residencia:</label>
+			<input type="number" name="nrcasa" placeholder="Ex.: 94">			
+
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend class="formulariolegenda">Orçamento</legend>
+			<label class="formulario">Nome Produto:</label>
+			<input type="text" name="prod" placeholder="Ex.: Anel Vitória">
+			<br>
+			<label class="formulario">Quantidades:</label>
+			<input type="number" name="quant" placeholder="Ex.: 3">
+			<br>
+			<label class="formulario">Valor do Produto:</label>
+			<input type="number" name="preco" placeholder="Ex.: 6670">
+			<br>
+			<label class="formulario">Forma Pagamento:</label>
+			<input type="radio" name="paga" value="Crédito">
+			<label class="formulario">Crédito</label>
+			<input type="radio" name="paga" value="Débito">
+			<label class="formulario">Débito</label>
+			<input type="radio" name="paga" value="Dinheiro">
+			<label class="formulario">Dinheiro</label>
+			<br>
+			<label class="formulario">Desconto Desejado:</label>
+			<input type="number" name="desc" placeholder="Ex.: 10">
+			
+		</fieldset>
+
+
+		<input type="submit"value="Enviar">
+		<input type="reset" value="Apagar campos do formulario">
+
+
+	
+	
+
+</body>
+</html>
